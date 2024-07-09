@@ -1042,7 +1042,7 @@ section,
 
 .about:before {
   content: "";
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1205,10 +1205,14 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Clients Section
+# Clients ( and Partners) Section
 --------------------------------------------------------------*/
 .clients {
   padding: 25px 0;
+}
+
+.clients .logo-list {
+  margin-bottom: 50px;
 }
 
 .clients .swiper {
